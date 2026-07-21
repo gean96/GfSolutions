@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="GF Solutions: Desenvolvimento de aplicativos inteligentes, soluções móveis com integração Bluetooth, dashboards de produtividade e utilitários modernos. Conheça nossos apps!">
+  <meta name="description" content="GF Solutions: Desenvolvimento de aplicativos inteligentes, soluções multiplataforma com integração Bluetooth, dashboards de produtividade e utilitários modernos. Conheça nossos apps!">
   
   <title>GF Solutions | Desenvolvimento de Apps e Soluções Inteligentes</title>
   
@@ -79,7 +79,7 @@
           </div>
           <h1>Transformamos ideias em <span class="highlight-gradient">aplicativos inovadores</span></h1>
           <p class="hero-description">
-            Na <strong>GF Solutions</strong>, criamos soluções móveis modernas, dashboards de alta performance e ferramentas utilitárias integradas que otimizam a sua rotina e impulsionam o seu negócio.
+            Na <strong>GF Solutions</strong>, criamos soluções multiplataforma modernas (Desktop, Web e Mobile), dashboards de alta performance e ferramentas utilitárias integradas que otimizam a sua rotina e impulsionam o seu negócio.
           </p>
           <div class="hero-actions-group">
             <a href="#portfolio" class="btn-cta btn-primary" id="btn-hero-explore">Conhecer Apps</a>
@@ -107,21 +107,21 @@
         
         <div class="about-grid">
           <!-- Card de Diferencial 1 -->
-          <div class="about-card" id="about-card-mobile">
+          <div class="about-card" id="about-card-multiplatform">
             <div class="about-icon-wrapper">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
             </div>
-            <h3>Foco em Mobile</h3>
-            <p>Desenvolvimento focado na plataforma móvel, garantindo fluidez, interfaces intuitivas e alta performance para os usuários.</p>
+            <h3>Foco em Multiplataforma</h3>
+            <p>Desenvolvimento voltado para múltiplos ecossistemas (Desktop, Web e Mobile), garantindo fluidez, interfaces intuitivas e alta performance em qualquer dispositivo.</p>
           </div>
           
           <!-- Card de Diferencial 2 -->
-          <div class="about-card" id="about-card-bluetooth">
+          <div class="about-card" id="about-card-sensors">
             <div class="about-icon-wrapper">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 7 10 10-5 5V2l5 5L7 17"></path></svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m16.24 7.76-2.12 6.36-6.36 2.12 2.12-6.36 6.36-2.12z"></path></svg>
             </div>
-            <h3>Conectividade Bluetooth</h3>
-            <p>Integração de hardwares externos, controles inteligentes e smartwatches (WearOS) via Bluetooth para experiências conectadas em tempo real.</p>
+            <h3>Recursos & Sensores</h3>
+            <p>Integração profunda com recursos nativos do sistema e sensores de hardware (como GPS, giroscópio, acelerômetro e wearables) em tempo real.</p>
           </div>
 
           <!-- Card de Diferencial 3 -->
@@ -129,8 +129,8 @@
             <div class="about-icon-wrapper">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
             </div>
-            <h3>Multiplataforma Moderno</h3>
-            <p>Utilização de frameworks de vanguarda como Flet (Python) e tecnologias nativas para criar layouts adaptáveis a computadores e celulares.</p>
+            <h3>Frameworks Modernos</h3>
+            <p>Utilização de tecnologias de vanguarda como Flet (Python) para criar layouts adaptáveis de forma ágil e otimizada para todas as plataformas.</p>
           </div>
         </div>
 
@@ -160,8 +160,14 @@
           <p class="section-subtitle">Explore os projetos desenvolvidos pela GF Solutions.</p>
         </div>
 
-        <!-- Grid de Portfólio -->
-        <div class="portfolio-grid" id="portfolio-projects-grid">
+        <!-- Carrossel de Portfólio -->
+        <div class="portfolio-carousel-wrapper" id="portfolio-carousel">
+          <button class="carousel-arrow prev" id="carousel-prev-btn" aria-label="Aplicativo anterior">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+          </button>
+          
+          <div class="portfolio-carousel-container" id="carousel-container-element">
+            <div class="carousel-track" id="carousel-track-element">
           
           <!-- Projeto 1: Simple Monday -->
           <article class="portfolio-card" id="project-card-simplemonday">
@@ -219,7 +225,7 @@
           <article class="portfolio-card" id="project-card-guardi">
             <div class="card-image-container">
               <div class="card-glow-overlay glow-guardi"></div>
-              <img src="assets/logo_gbox.jpg" alt="Logotipo do Guardi" class="card-logo">
+              <img src="assets/logo_gbox.png" alt="Logotipo do Guardi" class="card-logo">
             </div>
             <div class="card-info">
               <div class="card-category">Organização & Finanças</div>
@@ -245,7 +251,7 @@
           <article class="portfolio-card" id="project-card-gbox">
             <div class="card-image-container">
               <div class="card-glow-overlay glow-gbox"></div>
-              <img src="assets/logo_gbox.jpg" alt="Logotipo do Gbox" class="card-logo">
+              <img src="assets/logo_gbox.png" alt="Logotipo do Gbox" class="card-logo">
             </div>
             <div class="card-info">
               <div class="card-category">Utilidades & Desktop</div>
@@ -293,76 +299,47 @@
             </div>
           </article>
 
+            </div>
+          </div>
+          
+          <button class="carousel-arrow next" id="carousel-next-btn" aria-label="Próximo aplicativo">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </button>
         </div>
+        
+        <!-- Indicadores (Pontos) -->
+        <div class="carousel-dots" id="carousel-dots-container"></div>
       </div>
     </section>
 
     <!-- Seção de Contato -->
     <section id="contato" class="contact-section">
       <div class="container">
-        <div class="contact-grid">
+        <div class="contact-panel-centered">
+          <h2>Vamos criar algo incrível juntos?</h2>
+          <p>Se você tem alguma sugestão de melhoria para os nossos aplicativos ou deseja discutir uma nova ideia de projeto, entre em contato diretamente através dos canais de atendimento:</p>
           
-          <!-- Informações de Contato -->
-          <div class="contact-info-panel">
-            <h2>Vamos criar algo incrível juntos?</h2>
-            <p>Se você tem alguma sugestão de melhoria para os nossos aplicativos ou deseja discutir uma nova ideia, entre em contato através do formulário ou diretamente pelo e-mail.</p>
+          <div class="contact-details-row">
+            <div class="contact-card-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div class="contact-card-info">
+                <h4>E-mail Profissional</h4>
+                <a href="mailto:gean.marcos96@gmail.com" class="contact-link" id="contact-email-link">gean.marcos96@gmail.com</a>
+              </div>
+            </div>
             
-            <div class="contact-details">
-              <div class="contact-item">
-                <div class="contact-icon">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-                </div>
-                <div>
-                  <h4>E-mail</h4>
-                  <a href="mailto:gean.marcos96@gmail.com" class="contact-link" id="contact-email-link">gean.marcos96@gmail.com</a>
-                </div>
+            <div class="contact-card-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
               </div>
-              
-              <div class="contact-item">
-                <div class="contact-icon">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-                </div>
-                <div>
-                  <h4>GitHub</h4>
-                  <a href="https://github.com/gean96" target="_blank" rel="noopener" class="contact-link" id="contact-github-link">github.com/gean96</a>
-                </div>
+              <div class="contact-card-info">
+                <h4>GitHub</h4>
+                <a href="https://github.com/gean96" target="_blank" rel="noopener" class="contact-link" id="contact-github-link">github.com/gean96</a>
               </div>
             </div>
           </div>
-
-          <!-- Formulário de Contato -->
-          <div class="contact-form-panel">
-            <!-- Formspree para envio de e-mail estático simples no GitHub Pages -->
-            <form action="https://formspree.io/f/xvoyqyvo" method="POST" class="contact-form" id="contact-form-element">
-              <div class="form-group">
-                <label for="form-name">Nome</label>
-                <input type="text" id="form-name" name="name" required placeholder="Seu nome completo">
-              </div>
-              
-              <div class="form-group">
-                <label for="form-email">E-mail</label>
-                <input type="email" id="form-email" name="email" required placeholder="seuemail@exemplo.com">
-              </div>
-              
-              <div class="form-group">
-                <label for="form-message">Mensagem</label>
-                <textarea id="form-message" name="message" rows="5" required placeholder="Como podemos ajudar você?"></textarea>
-              </div>
-
-              <!-- Enviar e-mail alternativo se falhar ou opcional -->
-              <input type="hidden" name="_replyto" value="gean.marcos96@gmail.com">
-              <input type="hidden" name="_subject" value="Novo contato do site GF Solutions!">
-
-              <button type="submit" class="btn-cta btn-submit" id="btn-form-submit">
-                <span>Enviar Mensagem</span>
-                <svg class="icon-send" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
-              </button>
-            </form>
-            <div class="form-feedback-message" id="form-success-alert" style="display: none;" role="alert">
-              <p>Obrigado! Sua mensagem foi enviada com sucesso. Entraremos em contato em breve.</p>
-            </div>
-          </div>
-
         </div>
       </div>
     </section>

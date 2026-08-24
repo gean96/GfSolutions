@@ -651,8 +651,6 @@ img {
 .glow-monday { background: #6366f1; }
 .glow-placar { background: #34d399; }
 .glow-guardi { background: #005bb3; }
-.glow-gbox { background: #006c52; }
-.glow-gupdater { background: #06b6d4; }
 
 .portfolio-card:hover .card-glow-overlay {
   transform: scale(1.4);
